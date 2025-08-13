@@ -4,47 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <h1>Bible verse mood booster</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Bible verse mood booster</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="How are you feeling right now?"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The mood booster will go header
-        <br />
-        The mood booster will go header
-        <br />
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="How are you feeling right now?"
+            autofocus
+            required
+            autocomplete="off"
+            class="instruction"
+          />
+          <input type="submit" class="button" />
+        </form>
+        <div class="mood">
+          The mood booster will go header
+          <br />
+          The mood booster will go header
+          <br />
+        </div>
+      </main>
 
-    <footer>
-      This was coded by
-      <a href="https://github.com/Hlengiwe-Mthimkhulu" target="_blank"
-        >Hlengiwe Mthimkhulu</a
-      >
-      and is open-sourced on
-      <a
-        href="https://github.com/Hlengiwe-Mthimkhulu/Bible-Verse-Mood-Booster"
-        target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://bible-verse-mood-booster.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
-    <script src="src/index.js"></script>
+      <footer>
+        This was coded by
+        <a href="https://github.com/Hlengiwe-Mthimkhulu" target="_blank"
+          >Hlengiwe Mthimkhulu</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/Hlengiwe-Mthimkhulu/Bible-Verse-Mood-Booster"
+          target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://bible-verse-mood-booster.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+      <script src="src/index.js"></script>
+    </div>
   </body>
 </html>
