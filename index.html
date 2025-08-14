@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
 
     <title>Document</title>
   </head>
@@ -23,14 +24,11 @@
             required
             autocomplete="off"
             class="instruction"
+            id="mood-input"
           />
-          <input type="submit" class="button" />
+          <input type="submit" class="button" value="Get Verse" />
         </form>
-        <div class="mood" id="mood">
-          <br />
-
-          <br />
-        </div>
+        <div class="mood" id="mood"></div>
       </main>
 
       <footer>
