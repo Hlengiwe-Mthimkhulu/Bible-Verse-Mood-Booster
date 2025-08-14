@@ -29,8 +29,9 @@ function generateVerse(event) {
     prompt
   )}&context=${encodeURIComponent(context)}&key=${apiKey}`;
 
-  document.querySelector("#mood").innerHTML =
-    "⏳ Finding your encouragement...";
+  let boosterElement = document.querySelector("#mood");
+  boosterElement.classList.remove("hidden");
+  boosterElement.innerHTML = `<div class="blink">⌛Finding your verse...</div>`;
 
   axios.get(apiUrl).then(displayVerse);
 }

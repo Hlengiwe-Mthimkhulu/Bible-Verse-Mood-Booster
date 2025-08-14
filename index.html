@@ -16,19 +16,22 @@
       </header>
 
       <main>
-        <form id="form-generator">
-          <input
-            type="text"
-            placeholder="How are you feeling right now?"
-            autofocus
-            required
-            autocomplete="off"
-            class="instruction"
-            id="mood-input"
-          />
-          <input type="submit" class="button" value="Get Verse" />
-        </form>
-        <div class="mood" id="mood"></div>
+        <div class="mood-example">
+          <form id="form-generator">
+            <input
+              type="text"
+              placeholder="How are you feeling right now?"
+              autofocus
+              required
+              autocomplete="off"
+              class="instruction"
+              id="mood-input"
+            />
+            <input type="submit" class="button" value="Get Verse" />
+          </form>
+          <div class="hint">i.e: sad, happy, tired or thankful</div>
+        </div>
+        <div class="mood hidden" id="mood"></div>
       </main>
 
       <footer>
