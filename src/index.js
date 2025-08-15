@@ -22,8 +22,8 @@ function generateVerse(event) {
                  Provide exactly ONE different Bible verse each time for the same mood. 
                  Include the full text and reference (e.g., John 3:16). 
                  After the verse, write one short encouraging sentence about how it applies to the mood. 
-                 Format in basic HTML: Verse and reference on one line, then <br /><br />, then encouragement, 
-                 then on a new line '<strong>SheCodes AI</strong>'.`;
+                 Format in basic HTML: Verse and reference on one line, then <br /><br />, then encouragement.
+                 `;
 
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${encodeURIComponent(
     prompt

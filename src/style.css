@@ -1,12 +1,12 @@
 body {
   background-color: aquamarine;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Merriweather", serif;
+  font-style: italic;
 }
-
 h1 {
   text-align: center;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 1.5;
   color: blueviolet;
 }
@@ -41,6 +41,10 @@ a {
   color: blueviolet;
 }
 
+a:hover {
+  color: #f70776;
+}
+
 .instruction {
   padding: 16px;
   border: 1px solid grey;
@@ -48,6 +52,8 @@ a {
   border-radius: 10px;
   font-size: 16px;
   line-height: 20px;
+  font-family: "Merriweather", serif;
+  font-style: italic;
 }
 
 .button {
@@ -58,8 +64,14 @@ a {
   padding: 14px 24px;
   width: 150px;
   font-size: 16px;
+  font-family: "Merriweather", serif;
+  font-style: italic;
 }
 
+.button:hover {
+  color: white;
+  background: #f48db4;
+}
 .mood {
   font-size: 16px;
   background-color: white;
